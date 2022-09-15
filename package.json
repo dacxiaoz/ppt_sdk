@@ -1,0 +1,24 @@
+{
+  "name": "ppt_sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./ppt_sdk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "dacxiaoz",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.79.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "konva": "^8.3.12"
+  }
+}
